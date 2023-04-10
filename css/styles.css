@@ -24,31 +24,32 @@
 body {
   font-family: var(--font-main);
   background-color: var(--color-white);
-  color:var(--color-slate);
+  color: var(--color-slate);
   letter-spacing: 0.02em;
 }
 
 ul {
-
   margin: 0;
-  padding:0;
+  padding: 0;
 }
-h1,h2,h3,h4,h5,h6,p {
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 img {
-
   display: block;
 }
 
 button {
-
   cursor: pointer;
 }
 
 .list {
-
   list-style: none;
 }
 
@@ -56,7 +57,6 @@ button {
   text-decoration: none;
   color: currentColor;
 }
-
 
 .title {
   color: var(--color-grey);
@@ -81,7 +81,6 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
 }
 
 .container {
@@ -110,9 +109,8 @@ button {
 
 .header-container {
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
-
 
 /* logo */
 .logo {
@@ -128,7 +126,7 @@ button {
 }
 
 .header .logo {
-  margin-right:76px;
+  margin-right: 76px;
 }
 
 .header-container {
@@ -137,13 +135,13 @@ button {
 }
 
 .header-nav {
-  display:flex;
+  display: flex;
   align-items: center;
 }
 .header .logo {
-display: block;
- padding-top: 25.5px;
- padding-bottom: 25.5px;
+  display: block;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 
 .header-logo {
@@ -161,22 +159,20 @@ display: block;
   color: var(--color-ocean);
 }
 
- /* Navigation */
+/* Navigation */
 .nav-list {
   display: flex;
   gap: 40px;
- 
+
   color: var(--color-navy-blue);
   font-weight: 500;
   line-height: 1.5;
 }
 
-
-
 /* contacts */
 .contacts {
-  margin-left:auto;
-color: var(--color-slate);
+  margin-left: auto;
+  color: var(--color-slate);
   font-style: normal;
   line-height: 1.5;
 }
@@ -184,7 +180,6 @@ color: var(--color-slate);
   display: flex;
   gap: 40px;
 }
-
 
 .contact-link:hover,
 .contact-link:focus {
@@ -204,11 +199,11 @@ color: var(--color-slate);
   background-color: var(--color-navy-blue-modal);
 }
 .hero-title {
-   max-width: 496px;
-   margin-bottom: 48px;
-   margin-left: auto;
-   margin-right: auto;
- 
+  max-width: 496px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+
   color: var(--color-white);
   font-size: 56px;
   line-height: 1.07;
@@ -243,11 +238,9 @@ color: var(--color-slate);
   text-align: left;
 }
 
-
-
 .features-list {
   display: flex;
-  gap: 24px;  
+  gap: 24px;
 }
 
 .feautures-title {
@@ -258,9 +251,8 @@ color: var(--color-slate);
 }
 
 .feautures-item {
-  flex-basis: calc((100%-24px)/3);
+  flex-basis: calc((100%-24px) / 3);
 }
-
 
 /**
   |============================
@@ -298,7 +290,7 @@ color: var(--color-slate);
 }
 
 .team-title {
-  margin-bottom:72px;
+  margin-bottom: 72px;
 
   font-weight: 700;
   font-size: 36px;
@@ -308,7 +300,7 @@ color: var(--color-slate);
 
 .team-list {
   display: flex;
-  gap: 24px; 
+  gap: 24px;
 }
 
 .team-description {
@@ -316,10 +308,10 @@ color: var(--color-slate);
   border-radius: 0px 0px 4px 4px;
 
   background-color: var(--color-white);
-  }
+}
 
 .team-item {
-  flex-basis: calc((100%-24px)/3); 
+  flex-basis: calc((100%-24px) / 3);
 }
 
 .team-subtitle {
@@ -337,7 +329,7 @@ color: var(--color-slate);
 */
 
 .filter {
-  padding:96px 120px;
+  padding: 96px 0 120px;
 }
 
 .filter-list {
@@ -352,7 +344,6 @@ color: var(--color-slate);
   min-height: 48px;
   padding: 12px 24px;
   border: 1px solid var(--color-cornflower);
-  
 
   color: var(--color-iris);
   background-color: var(--color-cloud);
@@ -360,7 +351,7 @@ color: var(--color-slate);
 
 .filter-btn:focus,
 .filter-btn:hover {
-   border: 1px solid transparent;
+  border: 1px solid transparent;
 
   background-color: var(--color-ocean);
   color: var(--color-white);
@@ -371,11 +362,11 @@ color: var(--color-slate);
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-  flex-basis: calc((100%-48px)/3);  
+  flex-basis: calc((100%-48px) / 3);
 }
 
 .portfolio-item {
-    background-color: var(--color-white);
+  background-color: var(--color-white);
 }
 
 .portfolio-title {
@@ -401,10 +392,9 @@ color: var(--color-slate);
   background-color: var(--color-navy-blue-modal);
 }
 
-
 .footer .logo {
   display: inline-block;
-  margin-bottom:16px;
+  margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -417,7 +407,7 @@ color: var(--color-slate);
   color: var(--color-cloud);
 }
 
- /**
+/**
    |============================
    | Hiiden titles
    |============================
@@ -429,7 +419,7 @@ color: var(--color-slate);
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
